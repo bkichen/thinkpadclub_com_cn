@@ -1,0 +1,42 @@
+/*
+* 所有页面 发送消息弹窗样式
+*/
+
+#fwin_reply .fpd a{
+    opacity: 0.4;
+    width: 20px;
+    height: 20px;
+    margin:6px 6px 0 0;
+    text-indent: -50rem;
+    border-color: #848484 #E0E0E0 #E0E0E0 #848484;
+    background:url(../../image/editor/editor.gif) no-repeat 100% 0;
+    background-size: cover;
+}
+.pmfm form .tedt .bar .fpd .fbld{display: none;}
+.pmfm form .tedt .bar .fpd .flnk{display: none;}
+.pmfm form .tedt .bar .fpd .fqt{display: none;}
+.pmfm form .tedt .bar .fpd .fcd{display: none;}
+.pmfm form .tedt .bar .fpd #pmforecolor{
+    background-position: -21px 0px;
+    background-size: cover;
+}
+.pmfm form .tedt .bar .fpd #pmsml{
+    background-position: -190px 0px;
+    background-size: cover;
+}
+#pmsml{
+    margin-bottom: 0px !important;
+}
+.t_c, .b_c {
+    height: 8px;
+    display: none;
+}
+.m_l, .m_r {
+    width: 8px;
+    display: none;
+}
+.t_l, .t_r, .b_l, .b_r {
+    width: 8px;
+    height: 8px;
+    display: none;
+}

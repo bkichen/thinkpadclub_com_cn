@@ -1,0 +1,58 @@
+/*
+* 首页推荐模块Css样式
+*/
+.plateModle {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.modleHand {
+    border-radius: 5px 5px 0 0;
+    height: 48px;
+    width: 100%;
+}
+.modleHand li a.plateActive {
+    border-top-left-radius: 5px;
+}
+.modleHand li.on a {
+    background: #999;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    width: 50%;
+}
+.modleHand li a {
+    background: #e5e5e5;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    color: #999;
+    width: 50%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+.plateModle .seeMore {
+    line-height: 40px;
+}
+.plateModle p {
+    text-align: center;
+    color: #999;
+    line-height: 40px;
+}
+.plateList li:nth-child(odd){
+    border-right: 1px #e5e5e5 solid;
+}
+
+.plateList li {
+    height: 48px;
+    float: left;
+    width: 179px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.slideTxtBox{
+    height: auto !important;
+}

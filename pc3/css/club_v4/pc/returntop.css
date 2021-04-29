@@ -1,0 +1,131 @@
+/*杩斿洖椤堕儴*/
+#ScrollToTop{
+    margin-bottom: 100px;
+    -moz-transition:bottom 250ms ease-in-out;
+    -webkit-transition: bottom 250ms ease-in-out;
+}
+.take_toptopbox,.take_toptopbox1{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left:70px;
+    /* margin-bottom: 200px;*/
+}
+
+#ScrollToTop.Offscreen{
+    bottom:-300px;
+    -moz-transition-duration:250ms;
+    -webkit-transition-duration:250ms;
+}
+.pcx_toptop b{
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom:100px;
+    cursor: pointer;
+    top:0;
+    z-index:2;
+    background:url(../../../../static/camera/images/newtake/to_top.png) no-repeat;
+    right:0;
+    background-size: 50px;
+}
+.pcx_toptop b:hover{
+    background:url(../../../../static/camera/images/newtake/to_tophover.png) no-repeat;
+    background-size: 50px;
+}
+.pcx_toptop,.pcx_toptop1{
+    width: 1186px;
+    margin: 0 auto;
+    position: relative;
+}
+.pcx_toptop1{
+    bottom:370px;
+    display: none;
+}
+.bigDataTitle{
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pcx_toptop p,.pcx_toptop p{
+    width: 1190px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.taketop_box{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    position: absolute;
+    right:0;
+    top:-200px;
+}
+.taketop_box1 ul li{
+    position: absolute;
+    right:0;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+}
+.taketop_box1 ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.taketop_li1{
+    top:0;
+    background: url(../../../../static/camera/images/newtake/icon1.png) no-repeat;
+}
+.taketop_li1:hover{
+    top:0;
+    background: url(../../../../static/camera/images/newtake/icon11.png) no-repeat;
+    background-size: 50px;
+}
+.taketop_li2{
+    top:52px;
+    background: url(../../../../static/camera/images/newtake/icon2.png) no-repeat;
+}
+.taketop_li2:hover{
+    top:52px;
+    background: url(../../../../static/camera/images/newtake/icon22.png) no-repeat;
+    
+    background-size: 50px;
+}
+.taketop_li3{
+    top:104px;
+    background: url(../../../../static/camera/images/newtake/icon3.png) no-repeat;
+}
+.taketop_li3:hover{
+    top:104px;
+    background: url(../../../../static/camera/images/newtake/icon33.png) no-repeat;
+    background-size: 50px;
+}
+.taketop_li4{
+    top:0px;
+    background: url(../../../../static/camera/images/newtake/fabiao.png) no-repeat;
+}
+.taketop_li4:hover{
+    top:0px;
+    background: url(../../../../static/camera/images/newtake/fabiaohover.png) no-repeat;
+    background-size: 50px;
+}
+.taketop_li5{
+    top:0px;
+    background: url(../../../../static/camera/images/newtake/huifu.png) no-repeat;
+}
+.taketop_li5:hover{
+    top:0px;
+    background: url(../../../../static/camera/images/newtake/huifuhover.png) no-repeat;
+    background-size: 50px;
+}
+.afterMain h3 a{
+    font-size: 22px;
+}
+/*end*/

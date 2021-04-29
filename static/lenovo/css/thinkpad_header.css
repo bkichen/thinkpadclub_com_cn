@@ -1,0 +1,1048 @@
+.header, body {
+    min-width: 1200px
+}
+
+.header .headerBox .headerLeft > ul > li > a, body {
+    font-family: "Microsoft YaHei"
+}
+
+#headerOver .main .mainBox .imgList span div, .header {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8000000, endColorstr=#C8000000)
+}
+
+.header {
+    z-index: 999;
+    height: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    position: relative
+}
+
+.header.specailHeader {
+    background: #000
+}
+
+.header .headerBox {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: auto
+}
+
+.header .headerBox .headerLeft {
+    height: 100%;
+    float: left
+}
+
+.header .headerBox .headerLeft > ul {
+    height: 100%
+}
+
+.header .headerBox .headerLeft > ul > li {
+    float: left
+}
+
+.header .headerBox .headerLeft > ul > li > a {
+    font-size: 18px;
+    color: #fff;
+    line-height: 70px;
+    margin: 0 14px;
+    text-decoration: none
+}
+
+.header .headerBox .headerLeft > ul > li > a:hover {
+    color: #f05050
+}
+
+.header .headerBox .headerLeft > ul > li > a.logo {
+    margin-left: 0;
+    margin-right: 0;
+    width: 142px;
+    display: block;
+    height: 70px
+}
+
+.header .headerBox .headerLeft > ul > li > a.logo img {
+    margin-top: 20px
+}
+
+.header .headerBox .headerRight {
+    float: right;
+    line-height: 25px;
+    margin-top: 21px;
+    position: absolute;
+    right: 76px
+}
+
+.header .headerBox .headerRight .btn_news {
+    width: 48px;
+    height: 25px;
+    color: red;
+    position: absolute;
+    right: -70px;
+    top: -12px
+}
+
+.header .headerBox .headerRight .btn_news span {
+    display: block;
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: -6px;
+    top: -2px
+}
+
+.header .headerBox .headerRight input {
+    width: 140px;
+    height: 25px;
+    background: #272727;
+    border: none;
+    color: #fff;
+    padding-left: 10px;
+    outline: 0
+}
+
+.header .headerBox .headerRight #head_search_btn {
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    top: 3px;
+    left: -3px;
+    cursor: pointer
+}
+
+.header .headerBox .headerRight #loginStatus {
+    float: right;
+    background: #000;
+    padding: 2px 2px 2px 13px
+}
+
+.header .headerBox .headerRight #loginStatus #signLogin, .header .headerBox .headerRight #loginStatus .pub_header_right_hide .username {
+    border-right: 1px solid #fff;
+    max-width: 104px;
+    padding-right: 4px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.header .headerBox .headerRight #loginStatus a {
+    color: #fff
+}
+
+.header .headerBox .headerRight #loginStatus .register {
+    float: left
+}
+
+.header .headerBox .headerRight #loginStatus .pub_header_right_hide {
+    list-style: none;
+    float: left;
+    margin-right: 4px
+}
+
+.header .headerBox .headerRight #loginStatus .pub_header_right_hide a img {
+    float: left;
+    margin: 0 5px
+}
+
+.header .headerBox .headerRight #loginStatus .pub_header_right_hide .username {
+    display: inline-block
+}
+
+.header .headerBox .headerRight #loginStatus .logout {
+    float: left;
+    position: relative;
+    width: 34px
+}
+
+.header .headerBox .headerRight #loginStatus .logout a {
+    color: #fff;
+    width: 33px;
+    position: absolute;
+    display: inline-block;
+    left: 0
+}
+
+.header .headerBox .headerRight #loginStatus #signRegister {
+    margin-left: 0;
+    float: left
+}
+
+.productCenter {
+    cursor: pointer;
+    position: relative
+}
+
+#headerOver {
+    position: absolute;
+    z-index: 1000;
+    left: -92px;
+    padding-top: 17px
+}
+
+#headerOver .main {
+    text-align: right
+}
+
+#headerOver .main .mainBox {
+    width: 1035px;
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/landpc_back.png);
+    position: relative
+}
+
+#headerOver .main .mainBox .sjx {
+    position: absolute;
+    top: -32px;
+    left: 157px;
+    opacity: .9
+}
+
+#headerOver .main .mainBox .imgList {
+    width: 100%
+}
+
+#headerOver .main .mainBox .imgList span {
+    display: inline-block;
+    float: left;
+    width: 199px;
+    margin-left: 10px;
+    position: relative
+}
+
+#headerOver .main .mainBox .imgList span.first {
+    margin-left: 0
+}
+
+#headerOver .main .mainBox .imgList span .cjImg {
+    height: 110px;
+    width: 197px;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    display: inline-block
+}
+
+#headerOver .main .mainBox .imgList span .borderImg {
+    position: absolute;
+    top: 99px;
+    left: 1px;
+    margin: auto;
+    width: 100%
+}
+
+#headerOver .main .mainBox .imgList span div {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #5e5e5e;
+    font-size: 14px;
+    background: rgba(0, 0, 0, .8);
+    top: 81px
+}
+
+#headerOver .main .mainBox .imgList span table {
+    width: 198px;
+    display: inline-table;
+    padding-top: 10px;
+    background: #000;
+    padding-bottom: 10px
+}
+
+#headerOver .main .mainBox .imgList span table tr td a {
+    color: #5e5e5e;
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 30px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    overflow: hidden
+}
+
+#headerOver .main .mainBox .titleList {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px
+}
+
+#headerOver .main .mainBox .titleList span {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 22px;
+    position: relative
+}
+
+#headerOver .main .mainBox .titleList span a {
+    width: 100%;
+    height: 100%;
+    color: #999
+}
+
+#headerOver .main .mainBox .titleList span a:hover {
+    color: #efefef
+}
+
+#headerOver .main .mainBox .titleList span img {
+    position: absolute;
+    top: 33px;
+    left: 50px
+}
+
+#headerOver .main .mainBox .contentList {
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding-bottom: 50px;
+    margin-top: 20px;
+    border-top: 1px solid #666
+}
+
+#headerOver .main .mainBox .contentList ul {
+    min-width: 115px;
+    float: left;
+    padding-left: 30px
+}
+
+#headerOver .main .mainBox .contentList.ul_8 ul {
+    width: 96px
+}
+
+#headerOver .main .mainBox .contentList.ul_9 ul {
+    width: 84px
+}
+
+#headerOver .main .mainBox .contentList.ul_10 ul {
+    width: 72px
+}
+
+#headerOver .main .mainBox .contentList ul li {
+    text-align: left;
+    margin-top: 20px
+}
+
+#headerOver .main .mainBox .contentList ul li a {
+    font-size: 16px;
+    color: #5e5e5e;
+    display: block;
+    height: 20px;
+    max-width: 125px;
+    line-height: 18px
+}
+
+#headerOver .main .mainBox .contentList ul li a:hover {
+    color: #bbb
+}
+
+#headerOver .main .mainBox .contentList ul li.title {
+    text-align: left
+}
+
+#headerOver .main .mainBox .contentList ul li.title a {
+    color: #999;
+    font-size: 18px;
+    height: 36px;
+    display: inline
+}
+
+#headerOver .main .mainBox .contentList ul li.title a:hover {
+    color: #fff
+}
+
+#headerOver .main .mainBox .contentList ul li.link a {
+    color: #9999;
+    font-size: 14px
+}
+
+.search_nav {
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/searchRevision/images/search_nav.png);
+    width: 100%;
+    height: 60px
+}
+
+.search_nav .search {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px
+}
+
+.search_nav .search .search_input {
+    width: 500px;
+    height: 38px;
+    position: relative
+}
+
+.search_nav .search .search_input input {
+    background: 0 0;
+    width: 500px;
+    height: 38px;
+    border: 1px solid #6e6e6e;
+    outline: 0;
+    box-sizing: border-box;
+    padding-left: 38px;
+    color: #fff
+}
+
+.search_nav .search .search_input .search_down ul, .search_nav .search .search_input .search_proposal ul {
+    padding: 30px 34px 26px
+}
+
+.search_nav .search .search_input .search_btn {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 25px;
+    height: 22px
+}
+
+.search_nav .search .search_input .search_del {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 18px;
+    height: 18px
+}
+
+.search_nav .search .search_input .search_down {
+    width: 500px;
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/searchRevision/images/search_down_03.png);
+    position: absolute;
+    top: 50px;
+    z-index: 9;
+    display: none
+}
+
+.search_nav .search .search_input .search_down .down {
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/searchRevision/images/search_down_02_03.png);
+    width: 100%;
+    height: 33px;
+    position: relative
+}
+
+.search_nav .search .search_input .search_down .down .close_history {
+    position: absolute;
+    right: 24px;
+    height: 33px;
+    line-height: 33px
+}
+
+.search_nav .search .search_input .search_down ul li, .search_nav .search .search_input .search_proposal ul li {
+    line-height: 26px;
+    color: #eaeaea;
+    font-size: 14px
+}
+
+.search_nav .search .search_input .search_down .down .close_history a {
+    text-decoration: underline
+}
+
+.search_nav .search .search_input .search_proposal {
+    width: 500px;
+    height: 162px;
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/searchRevision/images/search_proposal_03.png);
+    position: absolute;
+    top: 50px;
+    z-index: 9;
+    display: none
+}
+
+.triangle_border_up {
+    width: 15px;
+    height: 11px;
+    margin-top: 15px;
+    display: none
+}
+
+.triangle_border_up img {
+    display: block
+}
+
+.down_search {
+    width: 100%;
+    height: 72px;
+    box-sizing: border-box;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    display: none;
+    position: absolute;
+    z-index: 9
+}
+
+.down_search .search_box {
+    width: 1200px;
+    background: 0 0;
+    margin: 0 auto;
+    line-height: 72px
+}
+
+.down_search .search_box .search_input {
+    text-align: center;
+    position: relative
+}
+
+.down_search .search_box input {
+    width: 500px;
+    height: 38px;
+    box-sizing: border-box;
+    background: 0 0;
+    border: 1px solid #999;
+    outline: 0;
+    color: #fff;
+    padding-left: 20px
+}
+
+.down_search .search_box .search_icon {
+    width: 60px;
+    height: 36px;
+    background-color: #fff;
+    position: absolute;
+    left: 789px;
+    top: 19px;
+    cursor: pointer
+}
+
+.down_search .search_box .search_icon img {
+    display: block;
+    margin-top: 8px;
+    margin-left: 20px
+}
+
+.tab {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #4f4f4f;
+    color: #fff
+}
+
+.tab .tab_pruduct {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.tab .tab_pruduct ul li:first-child {
+    margin-left: 0
+}
+
+.tab .tab_pruduct ul li {
+    float: left;
+    color: #fff;
+    line-height: 60px;
+    margin-left: 34px
+}
+
+.tab .tab_pruduct ul li a {
+    color: #585858
+}
+
+.decoration {
+    text-decoration: none;
+    border-bottom: 1px solid red
+}
+
+.search_Pn {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff
+}
+
+.search_Pn .searchtext {
+    margin-top: 50px
+}
+
+.search_Pn .searchtext .text {
+    color: #fff;
+    text-decoration: underline
+}
+
+.search_Pn .searchtext ul {
+    width: 100%;
+    border-top: 1px solid #757575;
+    margin-top: 14px;
+    padding-top: 14px
+}
+
+.search_Pn .searchtext ul li {
+    line-height: 30px;
+    height: 30px
+}
+
+.search_Pn .searchtext ul li span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.search_Pn .searchtext ul li .model {
+    width: 302px;
+    text-align: left
+}
+
+.search_Pn .searchtext ul li .information {
+    width: 528px;
+    text-align: left;
+    color: #8e8e8e;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.search_Pn .searchtext ul li .configure {
+    width: 360px;
+    text-align: right
+}
+
+.search_Pn .searchtext ul li .configure a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.product_result {
+    width: 100%
+}
+
+.product_result .result {
+    width: 1200px;
+    margin: 48px auto
+}
+
+.product_result .result .result_img {
+    width: 297px;
+    float: left
+}
+
+.product_result .result .result_text {
+    width: 504px;
+    color: #fff;
+    float: right;
+    padding-right: 350px
+}
+
+.product_result .result .result_text ul li {
+    line-height: 24px
+}
+
+.product_result .result .result_text ul .product_name {
+    padding-bottom: 30px;
+    font-size: 20px
+}
+
+.product_result .result .result_text ul .information {
+    color: #a8a8a8;
+    width: 358px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.product_result .result .result_text ul .introduce {
+    color: #a8a8a8
+}
+
+.product_result .result .result_text ul .product_name span:nth-child(1) {
+    display: inline-block;
+    width: 400px
+}
+
+.product_result .result .result_text ul .product_name span:nth-child(3) {
+    color: #999;
+    font-size: 16px
+}
+
+.product_result .result .result_text ul .details span a:hover {
+    color: #418cd8
+}
+
+.product_result .result .result_text ul .details span a {
+    text-decoration: underline;
+    color: #fff
+}
+
+.product_result .result .result_text ul .details {
+    margin-top: 30px
+}
+
+.product_result .result .result_text ul .details span:nth-child(1), .product_result .result .result_text ul .details span:nth-child(2), .product_result .result .result_text ul .details span:nth-child(3), .product_result .result .result_text ul .details span:nth-child(4) {
+    padding-right: 58px
+}
+
+.product_result .result .Sameseries {
+    width: 1200px;
+    margin: 56px auto 0;
+    border: 1px solid #494949;
+    height: 48px
+}
+
+.product_result .result .Sameseries ul li {
+    float: left;
+    line-height: 48px;
+    color: #fff;
+    padding-left: 30px
+}
+
+.product_result .result .Sameseries ul li a {
+    color: #3583c8
+}
+
+.search_store {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 16px
+}
+
+.search_store ul {
+    padding-top: 50px
+}
+
+.search_store ul li {
+    padding-bottom: 35px;
+    line-height: 26px
+}
+
+.search_store ul li span {
+    display: inline-block;
+    padding-right: 62px;
+    vertical-align: top
+}
+
+.search_aftersale .aftersale_right ul .Product_information span a img, .search_article .article .article_img img {
+    vertical-align: middle
+}
+
+.search_store ul li .shop {
+    width: 60px;
+    font-size: 18px
+}
+
+.search_store ul li .address {
+    width: 278px;
+    color: #727272
+}
+
+.search_store ul li .shop_address {
+    width: 414px;
+    color: #727272
+}
+
+.search_store ul li .call {
+    width: 116px;
+    color: #727272
+}
+
+.search_store ul li .see {
+    padding-right: 0
+}
+
+.search_store ul li .see a {
+    color: #3676b7
+}
+
+.search_store ul .last {
+    padding-bottom: 0
+}
+
+.search_aftersale {
+    width: 1200px;
+    margin: 48px auto 0
+}
+
+.search_aftersale .aftersale_left {
+    width: 296px;
+    float: left
+}
+
+.search_aftersale .aftersale_right {
+    float: right;
+    width: 838px;
+    color: #757575;
+    margin-top: 50px
+}
+
+.search_aftersale .aftersale_right ul .title {
+    color: #ea1709;
+    font-size: 22px
+}
+
+.search_aftersale .aftersale_right ul .Product_information {
+    font-size: 18px;
+    margin-top: 40px
+}
+
+.search_aftersale .aftersale_right ul .Product_information span {
+    padding-right: 44px
+}
+
+.search_aftersale .aftersale_right ul .Product_information span a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px
+}
+
+.search_aftersale .aftersale_right ul .Product_information span a:hover img {
+    color: #fff
+}
+
+.search_article {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.search_article .article {
+    height: 200px;
+    width: 1104px;
+    margin: 0 auto;
+    border-bottom: 1px solid #333
+}
+
+.search_article .article .article_img {
+    float: left;
+    line-height: 200px
+}
+
+.search_article .article .article_words {
+    color: #fff;
+    width: 858px;
+    padding-top: 50px;
+    float: right
+}
+
+.search_article .article .article_words ul .product_title {
+    font-size: 20px
+}
+
+.search_article .article .article_words ul .introduce {
+    margin-top: 20px;
+    color: #8c8c8c;
+    line-height: 20px
+}
+
+.search_article .article .article_words ul .product_title span:nth-child(1) {
+    display: inline-block;
+    width: 772px
+}
+
+.search_article .article .article_words ul .product_title span:nth-child(2) {
+    color: #8c8c8c;
+    font-size: 14px
+}
+
+.search_article .article_last {
+    width: 1104px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 40px
+}
+
+.search_article .article_last ul .introduce {
+    color: #8c8c8c;
+    margin-top: 20px;
+    line-height: 20px
+}
+
+.search_article .article_last ul .product_title span:nth-child(1) {
+    display: inline-block;
+    width: 1020px
+}
+
+.search_article .article_last ul .product_title span:nth-child(2) {
+    color: #8c8c8c;
+    font-size: 14px
+}
+
+.search_noresult {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 670px;
+    color: #fff
+}
+
+.search_resultcorrect {
+    width: 1200px;
+    height: 670px;
+    margin: 0 auto;
+    color: #fff
+}
+
+.page img, .page span {
+    margin-left: 5px;
+    height: 14px
+}
+
+.search_resultcorrect p {
+    padding-left: 48px;
+    padding-top: 40px;
+    height: 670px
+}
+
+.search_resultcorrect p span:nth-child(1) {
+    padding-left: 0
+}
+
+.search_resultcorrect p span {
+    padding-left: 24px
+}
+
+.search_resultcorrect p span a {
+    color: #3881c9;
+    text-decoration: underline
+}
+
+.page {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px
+}
+
+.page a {
+    width: 19px;
+    height: 14px;
+    display: inline-block
+}
+
+.page span {
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    top: -1px
+}
+
+.page span.second {
+    color: #666
+}
+
+.footer {
+    width: 1200px;
+    margin: 50px auto auto;
+    padding-top: 35px;
+    padding-bottom: 90px;
+    border-top: 1px solid #fff
+}
+
+.footer.activeFooter {
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 0
+}
+
+.footer.specialFooter {
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/landpc_back.png)
+}
+
+.footer .footerContent {
+    width: 1200px;
+    margin: auto auto 35px
+}
+
+.footer .footerContent .footerDiv {
+    float: left;
+    position: relative
+}
+
+.footer .footerContent .footerDiv .thinklogohide {
+    position: absolute;
+    left: 0;
+    visibility: hidden
+}
+
+.footer .footerContent .footerDiv.codeImg {
+    margin-left: 40px
+}
+
+.footer .footerContent .footerDiv.secondImg {
+    margin-left: 30px
+}
+
+.footer .footerContent .footerDiv.linkTable {
+    width: 765px;
+    margin-top: 88px
+}
+
+.footer .footerP1, .footer .footerP2 {
+    margin: auto;
+    width: 1200px
+}
+
+.footer .footerContent .footerDiv.linkTable td a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center
+}
+
+.footer .footerP1, .footer .footerP1 a {
+    color: #8d8d8d;
+    font-size: 16px
+}
+
+.footer .footerP2, .footer .footerP2 a {
+    color: #8d8d8d;
+    font-size: 12px
+}
+
+.footer .footerP2 {
+    line-height: 20px
+}
+
+.stickTop {
+    width: 50px;
+    height: 50px;
+    background: url(https://pccss1.clubstatic.lenovo.com.cn/static/lenovo/images/headfoot/back_up.png) no-repeat;
+    position: fixed;
+    background-size: 100%;
+    right: 60px;
+    bottom: 60px;
+    cursor: pointer
+}
+
+/*导航右侧头像和消息*/
+div.header div.headerBox div.headerRight{
+    right: 120px;
+}
+div.header div.headerBox div.headerRight input{
+    width: 240px;
+    height: 36px;
+    background: #fff;
+    border-radius: 5px;
+    color: #333;
+}
+div.header div.headerBox div.headerRight #head_search_btn{
+    left: -36px;
+    top: -2px;
+}
+div.header div.headerBox div.headerRight #head_search_btn img{
+    width: 30px;
+}
+.add_right-avatar{
+    position: absolute;
+    right: -120px;
+    top: 0;
+}
+.add_right-avatar .user-op-bar li{
+    float: left;
+}
+.add_right-avatar .user-op-bar li img{
+    width: 40px;
+}
+.add_right-avatar .user-op-bar li.pub_header_right_first img{
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.pub_header_right_hide a{
+    color: #fff;
+}
+.pub_header_right_hide.header_margin{
+    margin:0 10px;
+    color: #e6e6e6;
+}
